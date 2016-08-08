@@ -17,3 +17,5 @@ keywords: "Molecular dynamics, ligand binding, drug discovery, allostery, simula
 markdown: kramdown
 
 pub-preview-words: 96
+
+exclude: [XXXX-YY-ZZ-PersonExample.md, XXXX-YY-ZZ-PublicationExample.md, XXXX-YY-ZZ-PostExample.md]
