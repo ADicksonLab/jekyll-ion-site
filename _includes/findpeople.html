@@ -1,0 +1,23 @@
+
+  {% for post in site.posts %}
+  {% if post.category == "person" %}
+  {% if post.position == posi %}
+  <div class="row">
+    <div class="3u">
+      <section>
+	<a href="#" class="image fit"><img src={{ site.baseurl }}{{ post.image }} alt={{ post.name }} /></a>
+      </section>
+    </div>
+    <div class="8u">
+	<div>
+	<fname>{{ post.name }}</fname>
+	</div>
+	{% if post.email %}<b>Email: </b> {{ post.email }}{% endif %}
+	<section class="post-content">
+	{{post.content | markdownify}}
+	</section>
+    </div>
+  </div>
+  {% endif %}
+  {% endif %}
+  {% endfor %}

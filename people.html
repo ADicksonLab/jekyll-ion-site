@@ -1,0 +1,38 @@
+---
+layout: default
+---
+
+<!-- Banner -->
+<section id="banner">
+  <div class="inner">
+    <h2>People</h2>
+  </div>
+</section>
+<section id="main" class="wrapper style1">
+  <header class="major">
+    <h3>Principal Investigator</h3>
+  </header>
+  {% assign posi = "pi" %}
+  {% include findpeople.html %}
+</section>
+<section id="main" class="wrapper style2">
+  <header class="major">
+    <h3>Postdoctoral Researchers</h3>
+  </header>
+  {% assign posi = "postdoc" %}
+  {% include findpeople.html %}
+</section>
+<section id="main" class="wrapper style1">
+  <header class="major">
+    <h3>Graduate Students</h3>
+  </header>
+  {% assign posi = "grad" %}
+  {% include findpeople.html %}
+</section>
+<section id="main" class="wrapper style2">
+  <header class="major">
+    <h3>Undergraduate Students</h3>
+  </header>
+  {% assign posi = "undergrad" %}
+  {% include findpeople.html %}
+</section>

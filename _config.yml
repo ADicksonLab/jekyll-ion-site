@@ -1,0 +1,19 @@
+# Site settings
+title: Dickson Lab @ MSU
+email: your-email@domain.com
+description: "The Dickson Lab at Michigan State University develops new computational techniques to study the interaction between small molecule drugs and their molecular receptors.  Lead PI: Alex Dickson"
+baseurl: "/~alexrd" # the subpath of your site, e.g. /blog/
+url: "http://www.egr.msu.edu" # the base hostname & protocol for your site
+github_username:  ADicksonLab
+favicon: "/images/favicon.ico"
+
+lang: "en"
+author: "Dickson Lab @ MSU"
+title: "Dickson Lab @ MSU"
+description: "Research group webpage of the Dickson Laboratory in the Department of Biochemistry and Molecular Biology at Michigan State University"
+keywords: "Molecular dynamics, ligand binding, drug discovery, allostery, simulations, atoms, atomic, molecules, molecular, binding pathways, binding mechanisms, transition states, transition"
+
+# Build settings
+markdown: kramdown
+
+pub-preview-words: 96

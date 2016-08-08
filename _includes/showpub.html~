@@ -1,0 +1,14 @@
+
+
+						<div class="6u">
+						  <section class="special">
+						    <a href="{{ site.baseurl }}{{ pub.url }}" class="image fit"><img src="{{pub.image}}" alt="" /></a>
+						    <h3> <a href="{{ site.baseurl }}{{ pub.url }}">{{pub.title}}</a></h3>
+						    <p><b>{{pub.authors}}.</b> <i>{{pub.journal}}.</i> ({{pub.year}})</p>
+						    <p><div align="left">
+							{{ pub.content | strip_html | markdownify | truncatewords: site.pub-preview-words }}
+						    </div></p>						    
+						    
+						  </section>
+						</div>
+
